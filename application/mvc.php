@@ -1,5 +1,5 @@
 <?php
-require "load.php";
+require "view.php";
 
 //load application model
 require "model.php";
