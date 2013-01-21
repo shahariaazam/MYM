@@ -10,6 +10,6 @@ class Controller{
     public function page()
     {
         $data=$this->model->info();
-        $this->load->view('views/viewfile.php',$data);
+        $this->load->view('View/viewfile.php',$data);
     }
 }
