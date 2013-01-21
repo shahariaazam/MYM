@@ -3,4 +3,4 @@
 ini_set('display_errors', 1);
 
 //Load our core file
-require("app/index.php");
+require("Public/index.php");

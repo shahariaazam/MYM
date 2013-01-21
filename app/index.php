@@ -1,11 +1,8 @@
 <?php
-require "View/view.php";
+require "View/index.php";
 
 //load application model
-require "Model/model.php";
+require "Model/index.php";
 
 //load application controller
-require "Controller/controller.php";
-
-$C = new Controller();
-$C->page();
+require "Controller/index.php";
