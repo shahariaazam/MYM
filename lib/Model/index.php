@@ -1,6 +1,6 @@
 <?php
 class Model{
-    public function info()
+    public function index()
     {
         return array(
             'name'=>'Shaharia',

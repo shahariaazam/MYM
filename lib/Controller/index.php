@@ -7,9 +7,4 @@ class Controller{
         $this->view=new View();
         $this->model=new Model();
     }
-    public function page()
-    {
-        $data=$this->model->info();
-        $this->view->index('viewfile.php',$data);
-    }
 }
