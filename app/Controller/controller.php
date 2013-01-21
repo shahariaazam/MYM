@@ -1,15 +1,15 @@
 <?php
 class Controller{
-    public $load;
+    public $view;
     public $model;
     function __construct()
     {
-        $this->load=new Load();
+        $this->view=new View();
         $this->model=new Model();
     }
     public function page()
     {
         $data=$this->model->info();
-        $this->load->view('View/viewfile.php',$data);
+        $this->view->index('viewfile.php',$data);
     }
 }

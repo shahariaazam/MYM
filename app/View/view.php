@@ -1,6 +1,6 @@
 <?php
-class Load{
-    function view($view_file,$data){
+class View{
+    function index($view_file,$data){
         if(is_array($data)){
             extract($data);
         }
